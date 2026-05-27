@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor cruft
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node (in case anyone adds tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python (in case anyone adds scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS/system
+Thumbs.db
+.directory
+
+# Local artifacts the plugin should not ship
+/scratch/
+/tmp/
+/local/
+*.local.md
+*.draft.md
+
+# Logs
+*.log
+
+# Lockfiles aren't needed for a plugin
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
