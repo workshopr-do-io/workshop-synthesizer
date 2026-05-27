@@ -66,7 +66,7 @@ See [CHANGELOG.md](CHANGELOG.md) for what's shipped.
 
 ## Reporting issues
 
-Bugs, prompt failures, voice drift: open a GitHub issue at https://github.com/workshopr-do-io/workshop-synthesizer/issues
+Bugs, prompt failures, voice drift: open a GitHub issue at https://github.com/bbulman/workshop-synthesizer/issues
 
 Security concerns: see [SECURITY.md](SECURITY.md). Email directly; don't open public issues for security reports.
 

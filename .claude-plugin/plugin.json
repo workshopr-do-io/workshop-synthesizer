@@ -7,8 +7,8 @@
     "email": "bill@workshopr.io",
     "url": "https://workshopr.io"
   },
-  "homepage": "https://github.com/workshopr-do-io/workshop-synthesizer",
-  "repository": "https://github.com/workshopr-do-io/workshop-synthesizer",
+  "homepage": "https://github.com/bbulman/workshop-synthesizer",
+  "repository": "https://github.com/bbulman/workshop-synthesizer",
   "license": "MIT",
   "keywords": [
     "workshop",

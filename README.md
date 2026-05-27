@@ -1,6 +1,6 @@
 # Workshop Synthesis for Claude Code
 
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/workshopr-do-io/workshop-synthesizer/releases/tag/v0.1.0)
+[![Version](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/bbulman/workshop-synthesizer/releases/tag/v0.1.0)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Companion to the book](https://img.shields.io/badge/companion-The%20Synthesis%20Playbook-orange)](https://workshopr.io)
 
@@ -9,7 +9,7 @@ A Claude Code plugin that runs the recipes from Bill Bulman's book *The Synthesi
 **Install in 30 seconds** (Claude Code CLI / VS Code / JetBrains):
 
 ```text
-/plugin marketplace add workshopr-do-io/workshop-synthesizer
+/plugin marketplace add bbulman/workshop-synthesizer
 /plugin install workshop-synthesizer
 ```
 
@@ -108,7 +108,7 @@ Don't know which fits?                                       → /ws-help
 **Plugin install (recommended):**
 
 ```text
-/plugin marketplace add workshopr-do-io/workshop-synthesizer
+/plugin marketplace add bbulman/workshop-synthesizer
 /plugin install workshop-synthesizer
 ```
 

@@ -7,14 +7,14 @@ Get from zero to your first synthesis in 3 steps.
 ### Via Claude Code plugin marketplace (recommended, v0.1.0+)
 
 ```text
-/plugin marketplace add workshopr-do-io/workshop-synthesizer
+/plugin marketplace add bbulman/workshop-synthesizer
 /plugin install workshop-synthesizer
 ```
 
 ### Via direct clone
 
 ```bash
-git clone https://github.com/workshopr-do-io/workshop-synthesizer.git ~/workshop-synthesizer
+git clone https://github.com/bbulman/workshop-synthesizer.git ~/workshop-synthesizer
 
 cd /path/to/your/project
 mkdir -p .claude/skills
