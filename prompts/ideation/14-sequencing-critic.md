@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #14.
 > **Recipe:** Ideation (Ch 7) — Roadmap ADAPT sidebar.
-> **Used at:** Step 4.5 — [PRIORITIZE] in `skills/synthesis-ideation/SKILL.md` (roadmap variant only).
+> **Used at:** Step 4.5 — [PRIORITIZE] in `synthesis-ideation/SKILL.md` (roadmap variant only).
 > **Workhorse:** Yes.
 
 ## The prompt

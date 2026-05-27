@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #1.
 > **Recipe:** Discovery (Ch 4). Adaptable to any recipe with interview or discussion transcripts.
-> **Used at:** Step 2 — [CLUSTER] in `skills/synthesis-discovery/SKILL.md`.
+> **Used at:** Step 2 — [CLUSTER] in `synthesis-discovery/SKILL.md`.
 > **Workhorse:** Yes (counts as two of the twelve — the transcript-to-quotes extractor and the first-pass clusterer).
 
 ## The prompt

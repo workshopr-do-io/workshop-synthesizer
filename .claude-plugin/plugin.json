@@ -1,14 +1,14 @@
 {
-  "name": "synthesis-playbook",
+  "name": "workshop-synthesis",
   "version": "0.1.0",
-  "description": "AI-assisted recipes for turning workshop outputs into decisions. Companion Claude Code plugin to Bill Bulman's book 'The Synthesis Playbook' (Workshopr facilitation series, Book 6). Bundles the four-moves framework, six workshop-type recipes, and 26 reusable prompts as installable skills with slash commands. Platform-neutral by design — the underlying prompts in prompts/ work in any LLM.",
+  "description": "Workshop synthesis recipes for Claude Code: turn workshop outputs into decisions using the four-moves framework (cluster, interpret, prioritize, narrate). 8 skills, 7 slash commands, 26 prompts. Companion plugin to Bill Bulman's book The Synthesis Playbook (Workshopr facilitation series, Book 6). Platform-neutral by design — the underlying prompts in prompts/ work in any LLM.",
   "author": {
     "name": "Bill Bulman",
     "email": "bill@workshopr.io",
     "url": "https://workshopr.io"
   },
-  "homepage": "https://github.com/bbulman/synthesis-playbook",
-  "repository": "https://github.com/bbulman/synthesis-playbook",
+  "homepage": "https://github.com/bbulman/workshop-synthesis",
+  "repository": "https://github.com/bbulman/workshop-synthesis",
   "license": "MIT",
   "keywords": [
     "workshop",
@@ -22,8 +22,6 @@
     "ideation",
     "roadmap",
     "training-debrief",
-    "ai",
-    "prompts",
     "workshopr",
     "four-moves",
     "cluster-interpret-prioritize-narrate"

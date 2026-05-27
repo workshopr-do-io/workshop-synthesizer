@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #7.
 > **Recipe:** Strategic offsite (Ch 5).
-> **Used at:** Step 4 — [NARRATE, with model assist] in `skills/synthesis-offsite/SKILL.md`.
+> **Used at:** Step 4 — [NARRATE, with model assist] in `synthesis-offsite/SKILL.md`.
 
 ## The prompt
 

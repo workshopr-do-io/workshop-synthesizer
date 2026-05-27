@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #3.
 > **Recipe:** Discovery (Ch 4). Used at the [INTERPRET] step in any recipe.
-> **Used at:** Step 4 — [INTERPRET] in `skills/synthesis-discovery/SKILL.md`. Also used in Sprint and Retro recipes.
+> **Used at:** Step 4 — [INTERPRET] in `synthesis-discovery/SKILL.md`. Also used in Sprint and Retro recipes.
 > **Workhorse:** Yes.
 
 ## The prompt

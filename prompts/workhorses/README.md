@@ -41,7 +41,7 @@ Once you've internalized the twelve, you can build new recipes for workshop type
 1. Name the move mix (cluster/interpret/prioritize/narrate as percentages)
 2. Name the audience and altitude
 3. Reach for the roll — which of the twelve apply? Most recipes use 4–7 of them.
-4. Identify recipe-specific moves — usually 1–2 specialized prompts. Build them with the four-part grammar (see [`/skills/synthesis-prompt-library/`](../../skills/synthesis-prompt-library/)).
+4. Identify recipe-specific moves — usually 1–2 specialized prompts. Build them with the four-part grammar (see [`/synthesis-prompt-library/`](../../synthesis-prompt-library/)).
 5. Worked-example test before you call the recipe done.
 
 ## When prompts go stale

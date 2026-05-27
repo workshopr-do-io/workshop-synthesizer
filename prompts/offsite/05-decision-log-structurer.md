@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #5.
 > **Recipe:** Strategic offsite (Ch 5).
-> **Used at:** Step 1 — [PREP] in `skills/synthesis-offsite/SKILL.md`.
+> **Used at:** Step 1 — [PREP] in `synthesis-offsite/SKILL.md`.
 > **Workhorse:** Yes.
 
 ## The prompt

@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #16.
 > **Recipe:** Retro (Ch 8).
-> **Used at:** Step 2 — [CLUSTER critic] in `skills/synthesis-retro/SKILL.md`.
+> **Used at:** Step 2 — [CLUSTER critic] in `synthesis-retro/SKILL.md`.
 > **Workhorse:** Yes.
 
 ## The prompt

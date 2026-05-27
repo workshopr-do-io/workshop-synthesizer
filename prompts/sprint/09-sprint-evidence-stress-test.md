@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #9.
 > **Recipe:** Design sprint (Ch 6).
-> **Used at:** Step 3 — [INTERPRET] in `skills/synthesis-sprint/SKILL.md`.
+> **Used at:** Step 3 — [INTERPRET] in `synthesis-sprint/SKILL.md`.
 
 ## The prompt
 

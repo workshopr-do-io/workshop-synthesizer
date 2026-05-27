@@ -1,0 +1,17 @@
+{
+  "name": "workshop-synthesis",
+  "owner": {
+    "name": "Bill Bulman",
+    "url": "https://workshopr.io"
+  },
+  "description": "Workshop Synthesis — recipes for turning workshop outputs into defensible decisions. The four moves (cluster, interpret, prioritize, narrate) plus six workshop-type recipes. Companion to The Synthesis Playbook by Bill Bulman.",
+  "plugins": [
+    {
+      "name": "workshop-synthesis",
+      "source": "./",
+      "description": "8 skills + 7 slash commands + 26 prompts. Discovery, strategic offsite, design sprint, ideation/roadmap, retro/post-mortem, training debrief, plus a framework skill and a prompt-library meta-skill. Each recipe ships with a pipeline agent that pauses at human-authorship checkpoints.",
+      "version": "0.1.0",
+      "license": "MIT"
+    }
+  ]
+}

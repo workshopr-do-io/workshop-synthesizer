@@ -38,15 +38,15 @@ For shipping a new version of the Synthesis Playbook plugin.
 
 - [ ] Clone the repo to a clean machine or fresh `~/.claude/plugins/cache/` location
 - [ ] Restart Claude Code
-- [ ] Verify all 7 slash commands appear (`/synthesis-help`, `/synthesis-discovery`, `/synthesis-offsite`, `/synthesis-sprint`, `/synthesis-ideation`, `/synthesis-retro`, `/synthesis-training`)
-- [ ] Invoke `/synthesis-help` and verify the decision tree works
-- [ ] Run `/synthesis-discovery` against a test synthesis-ready file (see test fixtures, if shipped)
+- [ ] Verify all 7 slash commands appear (`/ws-help`, `/ws-discovery`, `/ws-offsite`, `/ws-sprint`, `/ws-ideation`, `/ws-retro`, `/ws-training`)
+- [ ] Invoke `/ws-help` and verify the decision tree works
+- [ ] Run `/ws-discovery` against a test synthesis-ready file (see test fixtures, if shipped)
 - [ ] Verify the pipeline agent pauses correctly at human-authored steps
 
 ### Discovery recipe end-to-end test
 
 1. Create a fake synthesis-ready file with 3 short interview transcripts + 1 hypothesis line at `/tmp/test-engagement.md`
-2. Run `/synthesis-discovery` pointing at `/tmp/test-engagement.md`
+2. Run `/ws-discovery` pointing at `/tmp/test-engagement.md`
 3. Confirm agent runs steps 1–3 (prep, cluster, anti-flatten)
 4. Confirm agent pauses at step 4 (INTERPRET) and asks for human authorship
 5. Provide interpretations

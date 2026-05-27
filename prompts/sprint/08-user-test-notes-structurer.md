@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #8.
 > **Recipe:** Design sprint (Ch 6).
-> **Used at:** Step 1 — [CLUSTER, light] in `skills/synthesis-sprint/SKILL.md`.
+> **Used at:** Step 1 — [CLUSTER, light] in `synthesis-sprint/SKILL.md`.
 
 ## The prompt
 

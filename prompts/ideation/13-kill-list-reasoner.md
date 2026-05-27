@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #13.
 > **Recipe:** Ideation (Ch 7).
-> **Used at:** Step 5 — [PRIORITIZE → NARRATE] in `skills/synthesis-ideation/SKILL.md`.
+> **Used at:** Step 5 — [PRIORITIZE → NARRATE] in `synthesis-ideation/SKILL.md`.
 
 ## The prompt
 

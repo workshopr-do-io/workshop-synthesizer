@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #21.
 > **Recipe:** Training debrief (Ch 9).
-> **Used at:** Step 3 — [INTERPRET] in `skills/synthesis-training/SKILL.md`.
+> **Used at:** Step 3 — [INTERPRET] in `synthesis-training/SKILL.md`.
 
 ## The prompt
 

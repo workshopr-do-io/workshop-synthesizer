@@ -1,141 +1,162 @@
-# The Synthesis Playbook — Claude Code Plugin
+# Workshop Synthesis for Claude Code
 
-**AI-assisted recipes for turning workshop outputs into decisions.**
+[![Version](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/bbulman/workshop-synthesis/releases/tag/v0.1.0)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Companion to the book](https://img.shields.io/badge/companion-The%20Synthesis%20Playbook-orange)](https://workshopr.io)
 
-Companion plugin to the book *[The Synthesis Playbook](https://workshopr.io)* (Workshopr facilitation series, Book 6).
+A Claude Code plugin that runs the recipes from Bill Bulman's book *The Synthesis Playbook* (Workshopr facilitation series, Book 6) — for turning workshop outputs into defensible client decisions.
 
-The book teaches a four-move synthesis framework — **cluster, interpret, prioritize, narrate** — with six workshop-type recipes and 26 reusable prompts. This plugin packages all of it into Claude Code so you don't have to paste prompts by hand on a Sunday afternoon.
+**Install in 30 seconds** (Claude Code CLI / VS Code / JetBrains):
 
-It is platform-neutral by design. The prompts in [`prompts/`](./prompts) work in any LLM — copy-paste them into ChatGPT or Claude.ai if you don't run Claude Code.
-
----
-
-## A word on what this is, and what it isn't
-
-I (Bill Bulman) run [Workshopr.io](https://workshopr.io), which sells a hosted version of these recipes alongside the prompt library, a synthesis-ready file template, and the Coach that knows the moves. I have a commercial interest in your trying it. I also published the book and this plugin as the open, platform-neutral version of the same kit. The book is complete without Workshopr.io. This plugin is too. Both of those statements are true at the same time.
-
-The plugin runs in Claude Code; the platform runs in your browser; the prompts run anywhere. Pick the surface that matches the volume you do.
-
----
-
-## Install
-
-### Via Claude Code plugin marketplace (recommended)
-
-```
-/plugin marketplace add bbulman/synthesis-playbook
-/plugin install synthesis-playbook
+```text
+/plugin marketplace add bbulman/workshop-synthesis
+/plugin install workshop-synthesis
 ```
 
-### Via direct clone
+Then try `/ws-help` to see the decision tree, or jump straight to `/ws-discovery` if you just ran customer interviews.
 
-```bash
-git clone https://github.com/bbulman/synthesis-playbook ~/.claude/plugins/cache/synthesis-playbook
-```
+> **The recipe runs the recipe. You author the call.** This plugin doesn't write your synthesis for you. It handles the mechanical work — clustering, anti-flattening, draft transitions, audience-tiered framing — so you can focus on the parts that need your judgment: the interpretation, the priority call, the political read, the sentence at the top of the deck.
 
-Then restart Claude Code.
+### Why human-in-the-loop, not full automation?
 
-### Without Claude Code (any LLM)
+Every pipeline agent in this plugin **pauses at named human-authorship checkpoints** — the `[INTERPRET]` move, the `[PRIORITIZE]` move, the call slide, the personalized paragraph. It refuses to advance past those steps with model assistance. That's by design.
 
-Browse [`prompts/`](./prompts) and copy whichever prompt fits your workshop. The four-part prompt grammar at the bottom of [`prompts/README.md`](./prompts/README.md) explains how to adapt them.
+The book's Chapter 11 ("A gentle on-ramp to agents") describes the pattern. The agent is good at the recipe; the agent is not good at the engagement. An agent that runs the discovery recipe end-to-end produces output that's **80% of what you'd produce manually**. The remaining 20% — the unexpected interpretation that requires you to remember interview nineteen, the political read on which opportunity area the CPO can stomach, the call slide phrased exactly right — does not fit inside an agent.
+
+The plugin's job is to remove the paste-and-wait labor so the human's time goes to the parts that need a human.
 
 ---
 
 ## What's in the box
 
-### Eight skills
+### 8 skills
 
-| Skill | Covers | Book chapter |
+| Skill | What it does | Book chapter |
 |---|---|---|
 | `synthesis-framework` | The four moves, the synthesis stack, the Stakes × Politics matrix, "human-authored, machine-assisted" | Chs 1–3 |
-| `synthesis-discovery` | Customer discovery synthesis: 14+ interviews → opportunity areas + insight statements | Ch 4 |
-| `synthesis-offsite` | Strategic offsite synthesis: 5 executives → CEO memo + board deck + confidential appendix | Ch 5 |
-| `synthesis-sprint` | Design sprint synthesis: Decide vote + 5 user tests → Monday recommendation | Ch 6 |
-| `synthesis-ideation` | Ideation/roadmap synthesis: 200 stickies → ranked shortlist + kill list | Ch 7 |
-| `synthesis-retro` | Retro/post-mortem synthesis: dissent preservation, blame-vs-cause | Ch 8 |
-| `synthesis-training` | Training debrief synthesis: 3 audiences (participants, program owner, budget-holder) | Ch 9 |
-| `synthesis-prompt-library` | The twelve workhorses, the four-part prompt grammar, the aloud test | Ch 10 |
+| `synthesis-discovery` | Customer discovery synthesis (14+ interviews → opportunity areas) | Ch 4 |
+| `synthesis-offsite` | Strategic offsite synthesis (CEO memo + board deck + confidential appendix) | Ch 5 |
+| `synthesis-sprint` | Design sprint synthesis (Decide vote + 5 user tests → Monday recommendation) | Ch 6 |
+| `synthesis-ideation` | Ideation/roadmap synthesis (200 stickies → ranked shortlist + kill list) | Ch 7 |
+| `synthesis-retro` | Retro/post-mortem synthesis (dissent preservation, blame-vs-cause) | Ch 8 |
+| `synthesis-training` | Training debrief (3 audiences: participants, program owner, budget-holder) | Ch 9 |
+| `synthesis-prompt-library` | Twelve workhorses + four-part prompt grammar + aloud test | Ch 10 |
 
-### Seven slash commands
+### 7 slash commands
 
 ```
-/synthesis-help              Index + decision tree — start here
-/synthesis-discovery         Run the Discovery recipe
-/synthesis-offsite           Run the Strategic Offsite recipe
-/synthesis-sprint            Run the Design Sprint recipe
-/synthesis-ideation          Run the Ideation/Roadmap recipe
-/synthesis-retro             Run the Retro/Post-mortem recipe
-/synthesis-training          Run the Training Debrief recipe
+/ws-help                Index + decision tree — start here
+/ws-discovery           Run the Discovery recipe
+/ws-offsite             Run the Strategic Offsite recipe
+/ws-sprint              Run the Design Sprint recipe
+/ws-ideation            Run the Ideation/Roadmap recipe
+/ws-retro               Run the Retro/Post-mortem recipe
+/ws-training            Run the Training Debrief recipe
 ```
+
+See [`MODE_REGISTRY.md`](MODE_REGISTRY.md) for all recipes, modes, and variants.
 
 ### 26 prompts
 
-Every prompt from the book's appendix, organized by recipe in [`prompts/`](./prompts):
+Every prompt from the book's appendix in copy-paste form, organized by recipe in [`prompts/`](prompts/):
 
-- [`prompts/workhorses/`](./prompts/workhorses) — the 10 most-reused prompts plus two disciplines (audience-tiered narrator, the aloud test)
-- [`prompts/discovery/`](./prompts/discovery) — 7 prompts (#1–4, #24–26)
-- [`prompts/offsite/`](./prompts/offsite) — 3 prompts (#5–7)
-- [`prompts/sprint/`](./prompts/sprint) — 2 prompts (#8–9)
-- [`prompts/ideation/`](./prompts/ideation) — 5 prompts (#10–14)
-- [`prompts/retro/`](./prompts/retro) — 5 prompts (#15–19)
-- [`prompts/training/`](./prompts/training) — 4 prompts (#20–23)
+- [`prompts/workhorses/`](prompts/workhorses) — the 10 most-reused prompts + 2 disciplines (aloud test, audience-tiered narrator)
+- [`prompts/discovery/`](prompts/discovery) — 7 prompts (#1–4, #24–26)
+- [`prompts/offsite/`](prompts/offsite) — 3 prompts (#5–7)
+- [`prompts/sprint/`](prompts/sprint) — 2 prompts (#8–9)
+- [`prompts/ideation/`](prompts/ideation) — 5 prompts (#10–14)
+- [`prompts/retro/`](prompts/retro) — 5 prompts (#15–19)
+- [`prompts/training/`](prompts/training) — 4 prompts (#20–23)
 
-Each prompt file is verbatim from the book's appendix with the `[bracket]` variables marked clearly.
+Each prompt file is verbatim from the book's appendix with `[bracket]` variables marked. **They work in any long-context LLM** — copy-paste into ChatGPT or Claude.ai if you don't run Claude Code.
+
+### 6 pipeline agents
+
+One per recipe (under `<skill>/agents/`). Each implements the Chapter 11 agentic-pipeline pattern: automated steps with human-authorship pauses at the `[INTERPRET]` and `[PRIORITIZE]` checkpoints (and at the personalized-paragraph step in training, and the confidential-appendix step in offsite).
 
 ---
 
-## A quick decision tree
+## Architecture & pipeline
+
+**👉 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — the full plugin view: file tree, how a slash command flows through the plugin, how skills reference each other, how pipeline agents pause at human-authored steps.
+
+## Quick decision tree
 
 ```
 You just walked out of a workshop. Which recipe?
 
-Discovery sprint, customer research, persona work       → /synthesis-discovery
-Executive offsite, board strategy day, founder/board    → /synthesis-offsite
-GV-style design sprint, prototype test, mini-sprint     → /synthesis-sprint
-Half-day ideation, brainstorm, roadmap workshop         → /synthesis-ideation
-Quarterly retro, sprint retro, blameless post-mortem    → /synthesis-retro
-Multi-day training, cohort program, cross-functional    → /synthesis-training
+Customer discovery, user interviews, CAB, persona work       → /ws-discovery
+Executive offsite, board strategy day, founder/board         → /ws-offsite
+GV-style design sprint, prototype validation                 → /ws-sprint
+Half-day ideation, brainstorm, roadmap workshop              → /ws-ideation
+Team retro, sprint retro, blameless post-mortem              → /ws-retro
+Multi-day training, cohort program, cross-functional         → /ws-training
 
-Don't know which fits?                                  → /synthesis-help
+Don't know which fits?                                       → /ws-help
 ```
 
 ---
 
-## How each recipe runs
+## Quick install
 
-Each slash command walks you through the recipe's workflow with the four moves tagged inline: **[CLUSTER]**, **[INTERPRET]**, **[PRIORITIZE]**, **[NARRATE]**. At the [INTERPRET] and [PRIORITIZE] steps the agent pauses — those are the human-authored moves. You write the interpretation, you make the prioritization call, then the agent picks up and runs the rest.
+**Prerequisites:**
 
-This isn't an "agent that does the whole synthesis." That output is slop and the client will smell it. This is the agent doing the paste-and-wait labor so you can do the parts that need you in the room.
+- [Claude Code](https://docs.claude.com/en/docs/claude-code/setup) (latest)
+- An Anthropic API key, OpenAI key, or model provider configured in Claude Code
+- *Optional:* a synthesis-ready file template stored somewhere stable (see `synthesis-framework/references/synthesis-ready-file.md`)
+
+**Plugin install (recommended):**
+
+```text
+/plugin marketplace add bbulman/workshop-synthesis
+/plugin install workshop-synthesis
+```
+
+**Verify it works:** run `/ws-help` — you should see a decision tree pointing at the six recipes.
+
+For direct-clone install or installing without Claude Code, see [`QUICKSTART.md`](QUICKSTART.md).
 
 ---
 
 ## Use without the plugin
 
-Every prompt in [`prompts/`](./prompts) works in vanilla ChatGPT, Claude.ai, or any long-context model. Browse the folder, copy the prompt, replace the `[brackets]`. The plugin is the convenient runner. The recipes are yours.
+Every prompt in [`prompts/`](prompts/) works in any long-context LLM. The plugin is the convenient runner; the prompts are the product.
+
+See [`docs/using-without-claude-code.md`](docs/using-without-claude-code.md) for the copy-paste path.
 
 ---
 
 ## Use with the book
 
-The book and the plugin are designed to be used together. The book teaches the moves and the rationale. The plugin runs the workflow. If you find a recipe in the book that the plugin handles oddly, the book is the source of truth — read the chapter again, then file an issue and tell me what's drifting.
+The book and the plugin are designed to be used together. The book teaches the moves and the rationale. The plugin runs the workflow. If you find a recipe in the book that the plugin handles oddly, **the book is the source of truth** — read the chapter again, then file an issue.
 
-Book: [`The Synthesis Playbook`](https://workshopr.io) — also available on Amazon KDP, Apple Books, and the Workshopr.io site.
+Book: [*The Synthesis Playbook*](https://workshopr.io) by Bill Bulman, available on Amazon KDP, Apple Books, and the Workshopr.io site.
+
+See [`docs/relationship-to-book.md`](docs/relationship-to-book.md) for the full chapter-to-skill map.
+
+---
+
+## Conflict of interest
+
+The author runs [Workshopr.io](https://workshopr.io), which sells a hosted version of these recipes. This plugin is the open, platform-neutral version. Both can be true at the same time.
+
+See [NOTICE.md](NOTICE.md) for the full COI disclosure and [POSITIONING.md](POSITIONING.md) for what the plugin is (and isn't).
 
 ---
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md). Short version: prompt improvements welcome via PR. New workshop-type recipes — open an issue first so we can scope it. Don't add a new "where AI hurts" section without a "where AI helps" pair; the book's discipline is to keep them in balance.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). Prompt improvements welcome via PR. New workshop-type recipes — open an issue first so we can scope it. The book's discipline is to keep "where AI helps" and "where AI hurts" in balance; PRs that only document failure modes will be asked to balance the framing.
 
 ## License
 
-MIT. See [`LICENSE`](./LICENSE). The prompts and recipes are yours to copy, adapt, and steal. If you build a version that works better than mine, I want to see it. Send it. I'll print it out and steal it back.
+[MIT](LICENSE). The prompts and recipes are yours to copy, adapt, and steal. If you build a version that works better than mine, I want to see it. Send it. I'll print it out and steal it back.
 
-## Where this work continues
+---
 
-The recipes in this plugin all run in vanilla Claude Code. They don't require any specific tooling beyond what you already have.
+## Patterned after
 
-If you do this work professionally and find yourself reaching for the recipes often, there's a hosted version inside [Workshopr.io](https://workshopr.io) — same recipes, less setup, your library and your workshops in one place. You don't need it. The plugin is complete on its own.
+This plugin's structure follows the [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) pattern by Cheng-I Wu — multi-skill plugin with mode registry, pipeline agents, and platform-neutral prompt library. Thanks for the template.
 
 ---
 

@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #2.
 > **Recipe:** Discovery (Ch 4). Used after the first-pass cluster in any cluster-heavy recipe.
-> **Used at:** Step 3 — [CLUSTER critic] in `skills/synthesis-discovery/SKILL.md`.
+> **Used at:** Step 3 — [CLUSTER critic] in `synthesis-discovery/SKILL.md`.
 > **Workhorse:** Yes.
 
 ## The prompt

@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #6.
 > **Recipe:** Strategic offsite (Ch 5), Ideation (Ch 7). The steelman move.
-> **Used at:** Step 3 — [PRIORITIZE] sanity check in `skills/synthesis-offsite/SKILL.md`. Also used wherever a contested cut needs a sanity check.
+> **Used at:** Step 3 — [PRIORITIZE] sanity check in `synthesis-offsite/SKILL.md`. Also used wherever a contested cut needs a sanity check.
 > **Workhorse:** Yes.
 
 ## The prompt

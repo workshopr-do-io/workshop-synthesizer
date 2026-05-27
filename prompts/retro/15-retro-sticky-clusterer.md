@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #15.
 > **Recipe:** Retro (Ch 8).
-> **Used at:** Step 1 — [CLUSTER] in `skills/synthesis-retro/SKILL.md`.
+> **Used at:** Step 1 — [CLUSTER] in `synthesis-retro/SKILL.md`.
 
 ## The prompt
 

@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #4.
 > **Recipe:** Discovery (Ch 4). Used at the [INTERPRET → NARRATE] bridge.
-> **Used at:** Step 5 in `skills/synthesis-discovery/SKILL.md`.
+> **Used at:** Step 5 in `synthesis-discovery/SKILL.md`.
 
 ## The prompt
 

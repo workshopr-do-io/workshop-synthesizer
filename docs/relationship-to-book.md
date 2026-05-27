@@ -9,21 +9,21 @@ This plugin is the executable companion to Bill Bulman's book *The Synthesis Pla
 | Front matter — How to use this book | `README.md` decision tree | The "which recipe do I use" lookup |
 | Front matter — A note on numbers | (preserved by design discipline) | The plugin doesn't ship numbers; the reference files do, with composite tags where applicable |
 | Front matter — How this book was made | `CHANGELOG.md` disclosure section | The plugin discloses its own AI use the same way the book does |
-| Front matter — Consent and data | `skills/synthesis-framework/references/consent-and-data.md` | Verbatim — read before pasting client material |
+| Front matter — Consent and data | `synthesis-framework/references/consent-and-data.md` | Verbatim — read before pasting client material |
 | Intro — The Sunday you stop dreading | — | The narrative intro doesn't ship in the plugin; read the book for it |
 | Ch 1 — Synthesis is a craft, not a summary | Woven into `synthesis-framework/SKILL.md` intro | Foundation |
-| Ch 2 — The four moves | `skills/synthesis-framework/references/four-moves.md` | The taxonomy |
-| Ch 3 — Your synthesis stack | `skills/synthesis-framework/references/synthesis-ready-file.md`, `stakes-politics-matrix.md`, `human-authored-machine-assisted.md` | The stack + matrix + principle |
-| Ch 4 — Discovery & qualitative synthesis | `skills/synthesis-discovery/` + `prompts/discovery/` | The discovery recipe + 7 prompts + Mid-Co composite |
-| Ch 5 — Strategic offsite & stakeholder politics | `skills/synthesis-offsite/` + `prompts/offsite/` | The offsite recipe + 3 prompts + Reset-Co composite |
-| Ch 6 — Design sprint synthesis | `skills/synthesis-sprint/` + `prompts/sprint/` | The sprint recipe + 2 prompts + swipe-or-not composite |
-| Ch 7 — Ideation & roadmap synthesis | `skills/synthesis-ideation/` + `prompts/ideation/` | The ideation recipe + 5 prompts + 200-to-12 composite |
-| Ch 8 — Retro & post-mortem synthesis | `skills/synthesis-retro/` + `prompts/retro/` | The retro recipe + 5 prompts + trust-sticky composite |
-| Ch 9 — Training & workshop debrief synthesis | `skills/synthesis-training/` + `prompts/training/` | The training recipe + 4 prompts + first-time-manager-cohort composite |
-| Ch 10 — Your reusable prompt library | `skills/synthesis-prompt-library/` + `prompts/workhorses/` | The twelve workhorses + four-part grammar + versioning + extending pattern |
+| Ch 2 — The four moves | `synthesis-framework/references/four-moves.md` | The taxonomy |
+| Ch 3 — Your synthesis stack | `synthesis-framework/references/synthesis-ready-file.md`, `stakes-politics-matrix.md`, `human-authored-machine-assisted.md` | The stack + matrix + principle |
+| Ch 4 — Discovery & qualitative synthesis | `synthesis-discovery/` + `prompts/discovery/` | The discovery recipe + 7 prompts + Mid-Co composite |
+| Ch 5 — Strategic offsite & stakeholder politics | `synthesis-offsite/` + `prompts/offsite/` | The offsite recipe + 3 prompts + Reset-Co composite |
+| Ch 6 — Design sprint synthesis | `synthesis-sprint/` + `prompts/sprint/` | The sprint recipe + 2 prompts + swipe-or-not composite |
+| Ch 7 — Ideation & roadmap synthesis | `synthesis-ideation/` + `prompts/ideation/` | The ideation recipe + 5 prompts + 200-to-12 composite |
+| Ch 8 — Retro & post-mortem synthesis | `synthesis-retro/` + `prompts/retro/` | The retro recipe + 5 prompts + trust-sticky composite |
+| Ch 9 — Training & workshop debrief synthesis | `synthesis-training/` + `prompts/training/` | The training recipe + 4 prompts + first-time-manager-cohort composite |
+| Ch 10 — Your reusable prompt library | `synthesis-prompt-library/` + `prompts/workhorses/` | The twelve workhorses + four-part grammar + versioning + extending pattern |
 | Ch 11 — A gentle on-ramp to agents | The 6 pipeline agents in `skills/<recipe>/agents/` | The agentic pipeline pattern instantiated for each recipe |
 | Ch 12 — Client-facing artifacts | `prompts/workhorses/audience-tiered-narrator.md` + `prompts/workhorses/aloud-test.md` | The artifact altitude discipline + the two tests |
-| Back matter — Recipe index | `commands/synthesis-help.md` | The decision tree as a slash command |
+| Back matter — Recipe index | `commands/ws-help.md` | The decision tree as a slash command |
 | Back matter — Prompt appendix | `prompts/` (all 26 prompts) | The prompts themselves |
 | Back matter — About the author | (preserved by reference) | Read the book |
 

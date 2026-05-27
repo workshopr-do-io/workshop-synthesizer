@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #17.
 > **Recipe:** Retro (Ch 8).
-> **Used at:** Step 5 — [NARRATE] in `skills/synthesis-retro/SKILL.md`.
+> **Used at:** Step 5 — [NARRATE] in `synthesis-retro/SKILL.md`.
 
 ## The prompt
 

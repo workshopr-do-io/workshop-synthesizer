@@ -2,7 +2,7 @@
 
 > **From:** *The Synthesis Playbook*, prompt appendix, #10.
 > **Recipe:** Ideation (Ch 7).
-> **Used at:** Step 1 — [CLUSTER] in `skills/synthesis-ideation/SKILL.md`.
+> **Used at:** Step 1 — [CLUSTER] in `synthesis-ideation/SKILL.md`.
 
 ## The prompt
 

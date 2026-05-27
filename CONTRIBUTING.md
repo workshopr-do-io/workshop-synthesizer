@@ -22,7 +22,7 @@ The book covers six workshop types. There are more. Customer Advisory Boards, ve
 If you want to add a new recipe:
 
 1. Open an issue first with the workshop type, the move mix (cluster/interpret/prioritize/narrate weights), and the proposed prompts.
-2. Once scoped, follow the structure of `skills/synthesis-discovery/` as your template.
+2. Once scoped, follow the structure of `synthesis-discovery/` as your template.
 3. Include: SKILL.md, references/workflow.md, references/prompts.md, references/pitfalls.md, references/worked-example.md, and one slash command in `commands/`.
 4. The worked example should be a composite, not a real engagement — and disclose that in the file, the way the book does.
 

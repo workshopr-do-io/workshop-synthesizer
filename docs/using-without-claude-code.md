@@ -10,15 +10,15 @@ This document is the practitioner's guide for the copy-paste path.
 
 1. **A long-context LLM you trust.** ChatGPT, Claude.ai, Gemini, your enterprise's hosted model. Any of the current major frontier models with 100K+ context will run these prompts.
 
-2. **A synthesis-ready file.** Build it before the workshop ends. Template in [`skills/synthesis-framework/references/synthesis-ready-file.md`](../skills/synthesis-framework/references/synthesis-ready-file.md).
+2. **A synthesis-ready file.** Build it before the workshop ends. Template in [`synthesis-framework/references/synthesis-ready-file.md`](../synthesis-framework/references/synthesis-ready-file.md).
 
-3. **Twenty minutes to read the framework before your first synthesis.** Don't skip this — see [`skills/synthesis-framework/SKILL.md`](../skills/synthesis-framework/SKILL.md).
+3. **Twenty minutes to read the framework before your first synthesis.** Don't skip this — see [`synthesis-framework/SKILL.md`](../synthesis-framework/SKILL.md).
 
 ## Three things to do before pasting anything
 
 ### 1. Check consent and data
 
-Run the four-question check from Chapter 3 of the book (also in [`skills/synthesis-framework/references/consent-and-data.md`](../skills/synthesis-framework/references/consent-and-data.md)):
+Run the four-question check from Chapter 3 of the book (also in [`synthesis-framework/references/consent-and-data.md`](../synthesis-framework/references/consent-and-data.md)):
 
 - Does your consent form allow third-party LLM processing?
 - Is your model provider's "no training" setting on?
@@ -29,7 +29,7 @@ If any answer is uncertain, **do not paste client material.** Run the synthesis 
 
 ### 2. Pin yourself on the Stakes × Politics matrix
 
-See [`skills/synthesis-framework/references/stakes-politics-matrix.md`](../skills/synthesis-framework/references/stakes-politics-matrix.md). Decide before you start which quadrant your engagement is in. This tells you which moves the model is on for and which it's off for.
+See [`synthesis-framework/references/stakes-politics-matrix.md`](../synthesis-framework/references/stakes-politics-matrix.md). Decide before you start which quadrant your engagement is in. This tells you which moves the model is on for and which it's off for.
 
 ### 3. Pick a recipe
 
@@ -37,12 +37,12 @@ Match your workshop type to one of the six recipes:
 
 | Workshop you ran | Use recipe |
 |---|---|
-| Customer discovery, interviews, CAB, persona work | [`skills/synthesis-discovery/`](../skills/synthesis-discovery/) |
-| Executive offsite, board strategy day | [`skills/synthesis-offsite/`](../skills/synthesis-offsite/) |
-| GV-style design sprint, prototype validation | [`skills/synthesis-sprint/`](../skills/synthesis-sprint/) |
-| Half-day ideation, brainstorm, roadmap | [`skills/synthesis-ideation/`](../skills/synthesis-ideation/) |
-| Team retro, project retro, post-mortem | [`skills/synthesis-retro/`](../skills/synthesis-retro/) |
-| Multi-day training, cohort program, cross-functional alignment | [`skills/synthesis-training/`](../skills/synthesis-training/) |
+| Customer discovery, interviews, CAB, persona work | [`synthesis-discovery/`](../synthesis-discovery/) |
+| Executive offsite, board strategy day | [`synthesis-offsite/`](../synthesis-offsite/) |
+| GV-style design sprint, prototype validation | [`synthesis-sprint/`](../synthesis-sprint/) |
+| Half-day ideation, brainstorm, roadmap | [`synthesis-ideation/`](../synthesis-ideation/) |
+| Team retro, project retro, post-mortem | [`synthesis-retro/`](../synthesis-retro/) |
+| Multi-day training, cohort program, cross-functional alignment | [`synthesis-training/`](../synthesis-training/) |
 
 ## Running a recipe without the plugin
 
@@ -50,8 +50,8 @@ Each recipe's `SKILL.md` describes the workflow in plain English. Each `referenc
 
 ### A worked example — running the Discovery recipe by hand
 
-1. Read [`skills/synthesis-discovery/SKILL.md`](../skills/synthesis-discovery/SKILL.md) — the recipe overview.
-2. Read [`skills/synthesis-discovery/references/workflow.md`](../skills/synthesis-discovery/references/workflow.md) — the 8-step workflow.
+1. Read [`synthesis-discovery/SKILL.md`](../synthesis-discovery/SKILL.md) — the recipe overview.
+2. Read [`synthesis-discovery/references/workflow.md`](../synthesis-discovery/references/workflow.md) — the 8-step workflow.
 3. Step 1 (Prepare transcripts) — by hand, no LLM. Concatenate transcripts.
 4. Step 2 ([CLUSTER]) — open ChatGPT or Claude.ai. Copy [`prompts/discovery/01-transcript-to-quotes-and-cluster.md`](../prompts/discovery/01-transcript-to-quotes-and-cluster.md). Fill in the `[brackets]`. Paste. Run.
 5. Step 3 ([CLUSTER critic]) — same chat window or new. Copy [`prompts/discovery/02-anti-flattening-critic.md`](../prompts/discovery/02-anti-flattening-critic.md). Paste and run.

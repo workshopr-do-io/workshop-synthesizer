@@ -30,13 +30,13 @@ Initial release. Companion to *The Synthesis Playbook* (Workshopr facilitation s
   - `synthesis-prompt-library` — The twelve workhorses + four-part grammar + aloud test (Ch 10)
 
 - **7 slash commands:**
-  - `/synthesis-help` (index + decision tree)
-  - `/synthesis-discovery`
-  - `/synthesis-offsite`
-  - `/synthesis-sprint`
-  - `/synthesis-ideation`
-  - `/synthesis-retro`
-  - `/synthesis-training`
+  - `/ws-help` (index + decision tree)
+  - `/ws-discovery`
+  - `/ws-offsite`
+  - `/ws-sprint`
+  - `/ws-ideation`
+  - `/ws-retro`
+  - `/ws-training`
 
 - **26 prompts** (verbatim from the book's appendix), organized by recipe folder in `prompts/`. Workhorses cross-listed in `prompts/workhorses/`.
 
@@ -46,7 +46,7 @@ Initial release. Companion to *The Synthesis Playbook* (Workshopr facilitation s
   - `README.md` — install, quick start, decision tree
   - `CONTRIBUTING.md` — how to add prompts and recipes
   - `SECURITY.md` — consent/data discipline, vulnerability reporting
-  - `docs/architecture.md` — how the plugin is wired
+  - `docs/ARCHITECTURE.md` — how the plugin is wired
   - `docs/using-without-claude-code.md` — copy-paste path for any LLM
   - `docs/publishing-checklist.md` — release process
   - `docs/relationship-to-book.md` — chapter → skill map
