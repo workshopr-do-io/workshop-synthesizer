@@ -7,25 +7,25 @@ Get from zero to your first synthesis in 3 steps.
 ### Via Claude Code plugin marketplace (recommended, v0.1.0+)
 
 ```text
-/plugin marketplace add bbulman/workshop-synthesis
-/plugin install workshop-synthesis
+/plugin marketplace add workshopr-do-io/workshop-synthesizer
+/plugin install workshop-synthesizer
 ```
 
 ### Via direct clone
 
 ```bash
-git clone https://github.com/bbulman/workshop-synthesis.git ~/workshop-synthesis
+git clone https://github.com/workshopr-do-io/workshop-synthesizer.git ~/workshop-synthesizer
 
 cd /path/to/your/project
 mkdir -p .claude/skills
-ln -s ~/workshop-synthesis/synthesis-framework .claude/skills/synthesis-framework
-ln -s ~/workshop-synthesis/synthesis-discovery .claude/skills/synthesis-discovery
-ln -s ~/workshop-synthesis/synthesis-offsite .claude/skills/synthesis-offsite
-ln -s ~/workshop-synthesis/synthesis-sprint .claude/skills/synthesis-sprint
-ln -s ~/workshop-synthesis/synthesis-ideation .claude/skills/synthesis-ideation
-ln -s ~/workshop-synthesis/synthesis-retro .claude/skills/synthesis-retro
-ln -s ~/workshop-synthesis/synthesis-training .claude/skills/synthesis-training
-ln -s ~/workshop-synthesis/synthesis-prompt-library .claude/skills/synthesis-prompt-library
+ln -s ~/workshop-synthesizer/synthesis-framework .claude/skills/synthesis-framework
+ln -s ~/workshop-synthesizer/synthesis-discovery .claude/skills/synthesis-discovery
+ln -s ~/workshop-synthesizer/synthesis-offsite .claude/skills/synthesis-offsite
+ln -s ~/workshop-synthesizer/synthesis-sprint .claude/skills/synthesis-sprint
+ln -s ~/workshop-synthesizer/synthesis-ideation .claude/skills/synthesis-ideation
+ln -s ~/workshop-synthesizer/synthesis-retro .claude/skills/synthesis-retro
+ln -s ~/workshop-synthesizer/synthesis-training .claude/skills/synthesis-training
+ln -s ~/workshop-synthesizer/synthesis-prompt-library .claude/skills/synthesis-prompt-library
 ```
 
 Each skill must sit at `.claude/skills/<skill-name>/SKILL.md` for Claude Code to discover it.

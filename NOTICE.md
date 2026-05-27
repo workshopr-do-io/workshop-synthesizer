@@ -1,6 +1,6 @@
 # NOTICE — Conflict of Interest Disclosure
 
-This plugin was published by Bill Bulman, who runs [Workshopr.io](https://workshopr.io) — a commercial SaaS that sells a hosted version of the same workshop-synthesis recipes packaged in this plugin.
+This plugin was published by Bill Bulman, who runs [Workshopr.io](https://workshopr.io) — a commercial SaaS that sells a hosted version of the same workshop-synthesizer recipes packaged in this plugin.
 
 The hosted Workshopr.io product includes:
 
