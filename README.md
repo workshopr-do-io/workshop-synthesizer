@@ -134,13 +134,7 @@ Book: [*The Synthesis Playbook*](https://workshopr.io) by Bill Bulman, available
 
 See [`docs/relationship-to-book.md`](docs/relationship-to-book.md) for the full chapter-to-skill map.
 
----
 
-## Conflict of interest
-
-The author runs [Workshopr.io](https://workshopr.io), which sells a hosted version of these recipes. This plugin is the open, platform-neutral version. Both can be true at the same time.
-
-See [NOTICE.md](NOTICE.md) for the full COI disclosure and [POSITIONING.md](POSITIONING.md) for what the plugin is (and isn't).
 
 ---
 
@@ -153,11 +147,4 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md). Prompt improvements welcome via PR. Ne
 [MIT](LICENSE). The prompts and recipes are yours to copy, adapt, and steal. If you build a version that works better than mine, I want to see it. Send it. I'll print it out and steal it back.
 
 ---
-
-## Patterned after
-
-This plugin's structure follows the [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) pattern by Cheng-I Wu — multi-skill plugin with mode registry, pipeline agents, and platform-neutral prompt library. Thanks for the template.
-
----
-
 *The Synthesis Playbook plugin — v0.1.0, May 2026. By [Bill Bulman](https://workshopr.io). Pick up the pan.*
